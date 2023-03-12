@@ -1,0 +1,76 @@
+body {
+    background-color:whitesmoke;
+}
+
+.mainSection {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 3%;
+    width: 70%;
+}
+
+.headText {
+    font-size: 7vh;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+
+.headText, .summary {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.summary {
+    font-size: 5vh;
+}
+
+.details {
+    margin: 2%;
+    border-top: 0.5vh solid black;
+}
+
+
+.meme {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+
+@media (max-width: 1000px) {
+
+.mainSection{
+    margin-top: 10%;
+    height: 100%;
+}
+
+.headText{
+    font-size: 7vh;
+}
+
+.summary {
+    font-size: 6vh;
+}
+
+}
+
+
+@media (max-width: 450px) {
+
+.mainSection{
+    margin-top: 10%;
+    height: 100%;
+}
+
+.headText{
+    font-size: 6vh;
+}
+
+.summary {
+    font-size: 5.6vh;
+}
+
+}
+
+
