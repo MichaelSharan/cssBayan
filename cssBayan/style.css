@@ -27,6 +27,7 @@ body {
 
 .details {
     margin: 2%;
+    border-top: 0.5vh solid black;
 }
 
 
