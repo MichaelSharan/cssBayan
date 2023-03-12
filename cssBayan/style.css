@@ -1,11 +1,35 @@
+body {
+    background-color:whitesmoke;
+}
+
 .mainSection {
-    margin: 15% auto;
-    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    width: 70%;
     border: 3px solid #000;
 }
+
+.headText {
+    font-size: 7vh;
+    margin-left: 5.2%;
+    
+}
+
+.headText, .summary {
+    font-size: 5vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.details {
+    margin: 2%;
+}
+
 
 .meme {
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
 }
+
+
