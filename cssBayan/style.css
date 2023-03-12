@@ -3,11 +3,10 @@ body {
 }
 
 .mainSection {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 3%;
     width: 70%;
-    border: 3px solid #000;
 }
 
 .headText {
@@ -35,6 +34,42 @@ body {
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
+}
+
+
+@media (max-width: 1000px) {
+
+.mainSection{
+    margin-top: 10%;
+    height: 100%;
+}
+
+.headText{
+    font-size: 7vh;
+}
+
+.summary {
+    font-size: 6vh;
+}
+
+}
+
+
+@media (max-width: 450px) {
+
+.mainSection{
+    margin-top: 10%;
+    height: 100%;
+}
+
+.headText{
+    font-size: 6vh;
+}
+
+.summary {
+    font-size: 5.6vh;
+}
+
 }
 
 
