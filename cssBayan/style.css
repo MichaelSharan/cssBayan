@@ -12,13 +12,18 @@ body {
 
 .headText {
     font-size: 7vh;
-    margin-left: 5.2%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     
 }
 
 .headText, .summary {
-    font-size: 5vh;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.summary {
+    font-size: 5vh;
 }
 
 .details {
